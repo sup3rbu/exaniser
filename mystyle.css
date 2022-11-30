@@ -1,0 +1,67 @@
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;   
+   }
+   /*
+   body{
+       background: rgb(219,226,226);
+
+
+   }
+   */
+
+   
+   .login img{
+       border-top-left-radius: 30px;
+       border-bottom-left-radius: 30px;
+   }
+   .btn1{
+       border:none;
+       outline:none;
+       height: 50px;
+       width:50%;
+       background-color: black;
+       color:white;
+       border-radius: 60px;
+       font-weight: 600;
+
+   }
+   .btn1:hover{
+       background-color: white;
+       border:1px solid;
+       color:black;
+   }
+   .inp{
+       height: 50px;
+       width: 70%;
+       border:none;
+       outline:none;
+       border-radius:60px;
+       -webkit-box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.69); 
+       box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.69);
+   }
+
+
+.btn-pr-1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(219,226,226);;
+    border-color: rgb(219,226,226);; /*set the color you want here*/
+}
+.btn-pr-1:hover, .btn-pr-1:focus, .btn-pr-1:active, .btn-pr-1.active, .open>.dropdown-toggle.btn-pr-1 {
+    color: rgb(0, 0, 0);
+    background-color: #00ff3d;
+    border-color: #00ff3d; /*set the color you want here*/
+}
+.btn-pr-2 {
+    color: rgb(0, 0, 0);
+    background-color:rgb(219,226,226);;
+    border-color: #00ff3d; /*set the color you want here*/
+}
+.btn-pr-2:hover, .btn-pr-2:focus, .btn-pr-2:active, .btn-pr-2.active, .open>.dropdown-toggle.btn-pr-2 {
+    color: rgb(0, 0, 0);
+    background-color: #00ff3d;
+    border-color: #00ff3d; /*set the color you want here*/
+}
+.btn.btn-rounded { border-radius: 30px }
